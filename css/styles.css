@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -109,10 +113,12 @@ a {
 /* main-section-1 */
 
 .effective {
+    padding: 188px 0;
     background-color: #2e2f42;
 }
 
 .effective-title {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -121,6 +127,12 @@ a {
 }
 
 .effective-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     background-color: #4D5AE5;
     font-weight: 500;
     line-height: 1.5;
