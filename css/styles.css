@@ -227,7 +227,7 @@ img {
 
 .team-member-title {
     text-align: center;
-    margin-bottom: 8px
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -302,9 +302,12 @@ img {
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.footer-logo .logo-part {
+
+.logo {
     display: inline-block;
     margin-bottom: 16px;
+}
+.footer-logo .logo-part {
     color: #f4f4fd;
 }
 .footer-text {
