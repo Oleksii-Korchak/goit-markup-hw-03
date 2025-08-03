@@ -46,12 +46,12 @@ img {
 
 .logo {
     font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .header-logo {
@@ -118,6 +118,9 @@ img {
 }
 
 .effective-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
     max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
@@ -127,6 +130,8 @@ img {
 }
 
 .effective-button { 
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -305,6 +310,9 @@ img {
 
 .logo {
     display: inline-block;
+}
+
+.footer-logo {
     margin-bottom: 16px;
 }
 .footer-logo .logo-part {
